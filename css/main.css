@@ -504,6 +504,7 @@
 @media (max-width: 640px) {
   .mgc-location-title {
     font-size: 18px;
+    width: 180px;
   }
 }
 
@@ -747,6 +748,7 @@
 @media (max-width: 640px) {
   .technological-title {
     font-size: 18px;
+    width: 200px;
   }
   .technological-content {
     margin-top: 40px;
