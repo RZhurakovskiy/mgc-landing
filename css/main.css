@@ -1,7 +1,7 @@
 @import "./reset.css";
 @import "./base.css";
 
-/* header */
+/* Шапка */
 
 .header {
   background-position: center center;
@@ -67,7 +67,6 @@
   bottom: 0;
 }
 
-
 /* мобильное меню */
 
 .mobile div {
@@ -80,7 +79,7 @@
   width: 50px;
   border-radius: 50%;
   z-index: 9999999;
-  border: 2px solid #FE0000;
+  border: 2px solid #fe0000;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   box-sizing: content-box;
@@ -94,7 +93,7 @@
   height: 4px;
   background-color: #fff;
   border-radius: 13px;
-  transition-duration: .4s;
+  transition-duration: 0.4s;
 }
 .mobile div span:nth-child(1) {
   top: 14px;
@@ -124,10 +123,10 @@
   width: 50px;
   border-radius: 50%;
   z-index: 9999990;
-  transition-duration: .4s;
+  transition-duration: 0.4s;
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   overflow: hidden;
 }
 .mobile nav.open {
@@ -171,19 +170,17 @@
 }
 @keyframes fadein {
   0% {
-      opacity: 0;
-      
+    opacity: 0;
   }
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }
-
 
 @media (max-width: 640px) {
   .mobile ul li a {
     font-size: 14px;
-}
+  }
   .logo {
     width: 196px;
     height: 52px;
@@ -219,7 +216,7 @@
   }
 }
 
-/* advantages section */
+/* Секция - преимущества */
 
 .advantages {
   background-color: #151515;
@@ -301,7 +298,7 @@
   }
 }
 
-/* maps section */
+/* Секция - наши локации */
 
 .rf-map,
 .rf-map * {
@@ -492,7 +489,7 @@
   height: 2px;
   left: 0;
   top: -5px;
-  background-color: #FE0000;
+  background-color: #fe0000;
 }
 .maps-card {
   display: flex;
@@ -507,7 +504,7 @@
   }
 }
 
-/* секция Моделирование Прототипы Инжиниринг PD-модель Тестирование Производство */
+/* Секция - Моделирование Прототипы Инжиниринг PD-модель Тестирование Производство */
 
 .engineering {
   background-color: #151515;
@@ -663,9 +660,10 @@
   }
 }
 
-/* Секция Технологические возможности */
+/* Секция - Технологические возможности */
 .technological {
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 .technological-title {
   font-weight: 700;
@@ -682,7 +680,7 @@
   height: 2px;
   left: 0;
   top: -5px;
-  background-color: #FE0000;
+  background-color: #fe0000;
 }
 .technological-content {
   display: flex;
@@ -709,8 +707,8 @@
 .technological-images-block {
 }
 .technological-content-images {
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   display: block;
   margin-bottom: 50px;
   border-radius: 50%;
@@ -727,7 +725,7 @@
   margin-left: -200px;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1249px) {
   .technological-content-images {
     box-shadow: 0 0 0 15px #dbdbdb;
   }
@@ -770,5 +768,87 @@
   .technological-content-images {
     width: 200px;
     height: 200px;
+  }
+}
+
+/* Секция - Технология Как искусство */
+
+.technology-art {
+  background-color: #151515;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/main-images/advantages-section-bg.png);
+  overflow-x: hidden;
+}
+.logo-technology-art {
+  margin-left: -20px;
+}
+.technology-art-top {
+  margin-top: 20px;
+}
+.technology-art-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.technology-art-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #e8e8e8;
+}
+.technology-art-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+.technology-art-content {
+}
+.technology-art-text {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #e8e8e8;
+  line-height: 3rem;
+}
+
+.technology-art-image img {
+  box-shadow: 0 0 0 30px #151515;
+  background: #151515;
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+  border: 1px solid #a52714;
+  padding: 20px;
+}
+@media (max-width: 1100px) {
+  .technology-art-row {
+    justify-content: center;
+    margin-top: 80px;
+  }
+}
+@media (max-width: 640px) {
+  .technology-art-title {
+    font-size: 18px;
+  }
+  .technology-art-subtitle {
+    font-size: 10px;
+  }
+  .technology-art-row {
+    margin-top: 40px;
+  }
+  .technology-art-text {
+    font-size: 12px;
+    line-height: 2rem;
+  }
+  .technology-art-image img {
+    width: 250px;
+    height: 250px;
   }
 }
