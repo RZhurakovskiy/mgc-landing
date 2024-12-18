@@ -477,11 +477,24 @@
 }
 
 .mgc-location-title {
+  font-weight: 700;
+  text-transform: uppercase;
   font-size: 32px;
   color: #141414;
   margin-top: 40px;
+  position: relative;
+  width: 300px;
 }
-
+.mgc-location-title::before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 2px;
+  left: 0;
+  top: -5px;
+  border-radius: 50%;
+  background-color: #FE0000;
+}
 .maps-card {
   display: flex;
   align-items: center;
@@ -660,6 +673,17 @@
   text-transform: uppercase;
   color: #1f1f1e;
   width: 320px;
+  position: relative;
+}
+.technological-title::before {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 2px;
+  left: 0;
+  top: -5px;
+  border-radius: 50%;
+  background-color: #FE0000;
 }
 .technological-content {
   display: flex;
