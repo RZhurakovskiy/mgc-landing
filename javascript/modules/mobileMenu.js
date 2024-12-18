@@ -1,15 +1,3 @@
-document.addEventListener('scroll', () => {
-    const header = document.querySelector('header');
-    const mobileButton = document.querySelector('.mobile div');
-
-    if (window.scrollY > header.offsetHeight) {
-        mobileButton.style.opacity = '1';
-        mobileButton.style.transition = 'opacity 0.1s ease';
-    } else {
-        mobileButton.style.opacity = '0';
-    }
-});
-
 export function initializeMobileMenu() { 
     const mobileDivs = document.querySelectorAll('.mobile div'); 
     const mobileNav = document.querySelector('.mobile nav'); 
