@@ -164,7 +164,6 @@
 }
 .mobile ul li a {
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-decoration: none;
@@ -182,6 +181,9 @@
 
 
 @media (max-width: 640px) {
+  .mobile ul li a {
+    font-size: 14px;
+}
   .logo {
     width: 196px;
     height: 52px;
