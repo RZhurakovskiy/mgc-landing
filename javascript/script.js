@@ -6,4 +6,3 @@ import { initializeMobileMenu } from './modules/mobileMenu.js';
 initParralaxAnimation();
 initDistrictInteractions();
 initializeMobileMenu();
-
