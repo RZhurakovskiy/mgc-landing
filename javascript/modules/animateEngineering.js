@@ -15,7 +15,7 @@ export function animateEngineering() {
         setTimeout(() => {
           event.style.opacity = "1";
           event.style.transform = "translateY(0)";
-        }, index * 100); // Ускоряем задержку между появлением элементов
+        }, index * 50); // Ускоряем задержку между появлением элементов
         animated.add(event);
       }
     });
@@ -33,7 +33,6 @@ export function animateEngineering() {
     }
   };
 
-  // Уменьшаем длительность переходов для более быстрого появления
   timelineEvents.forEach((event) => {
     event.style.transition = "opacity 0.5s ease-in-out, transform 0.5s ease-in-out";
     event.style.opacity = "0";
@@ -46,5 +45,5 @@ export function animateEngineering() {
 
   window.addEventListener("scroll", handleScroll);
 
-  handleScroll(); // Запуск анимации при загрузке страницы
+  handleScroll();
 }
