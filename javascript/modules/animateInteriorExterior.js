@@ -38,7 +38,7 @@ export function animateInteriorExterior() {
 
   image.style.transition = "opacity 1s ease-out, transform 1s ease-out";
   image.style.opacity = "0";
-  image.style.transform = "translateY(-50px)";
+  image.style.transform = "translateX(-50px)";
 
   title.style.transition = "opacity 1s ease-out, transform 1s ease-out";
   title.style.opacity = "0";

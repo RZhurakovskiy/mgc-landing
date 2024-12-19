@@ -15,7 +15,7 @@ export function animateEngineering() {
         setTimeout(() => {
           event.style.opacity = "1";
           event.style.transform = "translateY(0)";
-        }, index * 100);
+        }, index * 150);
         animated.add(event);
       }
     });
@@ -34,9 +34,9 @@ export function animateEngineering() {
   };
 
   timelineEvents.forEach((event) => {
-    event.style.transition = "opacity 1s ease, transform 1s ease";
+    event.style.transition = "opacity 0.8s ease-out, transform 0.8s ease-out"; // Плавный ease-out
     event.style.opacity = "0";
-    event.style.transform = "translateY(20px)";
+    event.style.transform = "translateY(30px)";
   });
 
   imageContainer.style.transition =
