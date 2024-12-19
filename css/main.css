@@ -1,6 +1,4 @@
 /* Импорты стилей секций */
-@import "./reset.css";
-@import "./base.css";
 @import "./blocks/header.css";
 @import "./blocks/advantages.css";
 @import "./blocks/location.css";
@@ -9,8 +7,8 @@
 @import "./blocks/technology-art.css";
 @import "./blocks/footer.css";
 @import "./blocks/interior-exterior.css";
-@import "./blocks/innovative-autoglass.css";
-
+@import "./blocks/innovative-autoglass.css"; 
+@import "./blocks/mgc-systems.css";
 /* Импорты дополнительных стилей */
 @import "./base/reset.css";
 @import "./base/base.css";

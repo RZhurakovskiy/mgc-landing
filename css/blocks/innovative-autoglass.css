@@ -22,7 +22,7 @@
   
   .innovative-autoglass-img {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: 600px;
     top: 0;
     bottom: 0;
@@ -54,7 +54,7 @@
     display: flex;
     justify-content: end;
     margin-top: 10%;
-    gap: 50px;
+    gap: 40px;
     flex-wrap: wrap;
   }
   
@@ -74,7 +74,7 @@
   
   .innovative-autoglass-list li {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     color: #fff;
     line-height: 2rem;
