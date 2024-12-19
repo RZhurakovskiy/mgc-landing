@@ -8,6 +8,7 @@ import { animateEngineering } from "./modules/animateEngineering.js";
 import { animateInteriorExterior } from "./modules/animateInteriorExterior.js";
 import { animateInnovativeAutoglass } from "./modules/animateInnovativeAutoglass.js"; 
 import { animateTechnological } from "./modules/animateTechnological.js";
+import { animanteTechnologyArt } from "./modules/animanteTechnologyArt.js";
 
 initializePreloader();
 initializeMobileMenu();
@@ -19,3 +20,4 @@ animateEngineering();
 animateInteriorExterior();
 animateInnovativeAutoglass();
 animateTechnological();
+animanteTechnologyArt();
