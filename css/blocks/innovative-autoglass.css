@@ -84,6 +84,7 @@
     .innovative-autoglass-title {
       max-width: 170px;
       font-size: 18px;
+      z-index: 2;
     }
     .innovative-autoglass-list li {
       font-size: 10px;
