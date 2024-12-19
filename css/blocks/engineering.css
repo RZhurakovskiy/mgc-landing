@@ -62,26 +62,15 @@
   }
   
   .timeline {
-    position: relative;
-    padding: 20px 0;
-    width: 450px;
-  }
-  
-  .timeline::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 6px;
-    background-color: red;
-    top: 15%;
-    bottom: 10%;
-    transform: translateX(-50%);
+    max-width: 490px;
+    width: 100%;
+    padding-bottom: 80px;
   }
   
   .timeline-event {
-    position: relative;
     margin: 20px 0;
-    text-align: left;
+    display: flex;
+    align-items: center;
   }
   
   .timeline-event h3 {
