@@ -15,7 +15,7 @@ export function animateEngineering() {
         setTimeout(() => {
           event.style.opacity = "1";
           event.style.transform = "translateY(0)";
-        }, index * 150);
+        }, index * 100); // Ускоряем задержку между появлением элементов
         animated.add(event);
       }
     });
@@ -33,18 +33,18 @@ export function animateEngineering() {
     }
   };
 
+  // Уменьшаем длительность переходов для более быстрого появления
   timelineEvents.forEach((event) => {
-    event.style.transition = "opacity 0.8s ease-out, transform 0.8s ease-out"; // Плавный ease-out
+    event.style.transition = "opacity 0.5s ease-in-out, transform 0.5s ease-in-out";
     event.style.opacity = "0";
     event.style.transform = "translateY(30px)";
   });
 
-  imageContainer.style.transition =
-    "opacity 1.2s ease-out, transform 1.2s ease-out";
+  imageContainer.style.transition = "opacity 0.8s ease-in-out, transform 0.8s ease-in-out";
   imageContainer.style.opacity = "0";
   imageContainer.style.transform = "translateX(-100px) rotate(-10deg)";
 
   window.addEventListener("scroll", handleScroll);
 
-  handleScroll();
+  handleScroll(); // Запуск анимации при загрузке страницы
 }
