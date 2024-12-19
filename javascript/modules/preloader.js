@@ -10,6 +10,3 @@ document.addEventListener("DOMContentLoaded", function() {
       preloader.classList.add("hidden");
     }, 1500);
   }
-  
-  
-  

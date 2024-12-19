@@ -6,6 +6,8 @@ import { initDistrictInteractions } from "./modules/maps.js";
 
 import { animateEngineering } from "./modules/animateEngineering.js";
 import { animateInteriorExterior } from "./modules/animateInteriorExterior.js";
+import { animateInnovativeAutoglass } from "./modules/animateInnovativeAutoglass.js"; 
+import { animateTechnological } from "./modules/animateTechnological.js";
 
 initializePreloader();
 initializeMobileMenu();
@@ -15,3 +17,5 @@ initDistrictInteractions();
 
 animateEngineering();
 animateInteriorExterior();
+animateInnovativeAutoglass();
+animateTechnological();
