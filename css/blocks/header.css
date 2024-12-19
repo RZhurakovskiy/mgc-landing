@@ -61,6 +61,7 @@
     left: 0;
     bottom: 0;
   }
+  
   .mobile div {
     display: block;
     position: fixed;
@@ -70,12 +71,19 @@
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    z-index: 9999999;
+    z-index: 200;
     border: 2px solid #fe0000;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     box-sizing: content-box;
   }
+  
+  /* Показ после анимации */
+  .mobile.animate {
+    transform: translateY(0);
+    opacity: 1; 
+  }
+  
   .mobile div span {
     display: block;
     position: absolute;

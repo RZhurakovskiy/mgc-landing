@@ -1,4 +1,5 @@
 /* Импорты стилей секций */
+@import "./blocks/preloader.css";
 @import "./blocks/header.css";
 @import "./blocks/advantages.css";
 @import "./blocks/location.css";
