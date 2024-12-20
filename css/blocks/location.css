@@ -114,6 +114,10 @@
 .mainfill {
   fill: #b9b9b9 !important;
 }
+.location-img {
+    width: 80px;
+    height: 80px;
+}
 @media (min-width: 768px) {
   .rf-map .district b {
     width: 28px;
