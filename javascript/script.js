@@ -23,3 +23,9 @@ animateInteriorExterior();
 animateInnovativeAutoglass();
 animateTechnological();
 animanteTechnologyArt();
+if (window.innerWidth < 440) { // Проверяем ширину экрана
+    var pathElements = document.querySelectorAll('path[data-title]'); // Выбираем все path с атрибутом data-title
+    pathElements.forEach(function(el) {
+        el.removeAttribute('data-title'); // Удаляем атрибут у каждого элемента
+    });
+}
