@@ -114,15 +114,16 @@
     border-radius: 0;
 }
 .mobile nav ul {
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    display: none;
 }
 .mobile nav ul.show {
-    visibility: visible;
-    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    will-change: opacity, visibility;
 }
-
 .mobile ul li {
     display: flex;
     align-items: center;
