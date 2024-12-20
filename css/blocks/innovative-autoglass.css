@@ -1,1 +1,87 @@
-.innovative-autoglass{position:relative;padding-top:40px;background:linear-gradient(45deg,#151515,#3d3d3d,#a52714);background-size:400% 400%;animation:20s linear infinite backgroundAnimation;min-height:686px}@keyframes backgroundAnimation{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}.innovative-autoglass-img{position:absolute;width:400px;height:686px;top:0;bottom:0;left:0;z-index:1}.innovative-autoglass-title{max-width:294px;width:100%;margin-left:auto;font-weight:700;font-size:32px;text-transform:uppercase;text-align:right;color:#fff;position:relative}.innovative-autoglass-title::before{position:absolute;content:"";width:80%;height:2px;right:0;top:-5px;background-color:#fe0000}.innovative-autoglass-content{display:flex;justify-content:end;margin-top:10%;gap:40px;flex-wrap:wrap;padding-bottom:80px}.innovative-autoglass-item{max-width:250px;width:100%;z-index:20}.innovative-autoglass-list-title{font-weight:700;font-size:18px;text-transform:uppercase;color:#e8e8e8;margin-bottom:10px}.innovative-autoglass-list li{font-weight:700;font-size:12px;text-transform:uppercase;color:#fff;line-height:2rem}@media (max-width:640px){.innovative-autoglass-title{max-width:170px;font-size:18px;z-index:2}.innovative-autoglass-list li{font-size:10px;line-height:1.6rem}.innovative-autoglass-list-title{font-size:12px}.innovative-autoglass-img{width:200px;height:350px}}
+.innovative-autoglass {
+    position: relative;
+    padding-top: 40px;
+    background: linear-gradient(45deg, #151515, #3d3d3d, #a52714);
+    background-size: 400% 400%;
+    animation: 20s linear infinite backgroundAnimation;
+    min-height: 686px;
+}
+@keyframes backgroundAnimation {
+    0%, 100% {
+    background-position: 0 50%}
+50% {
+    background-position: 100% 50%}
+}.innovative-autoglass-img {
+    position: absolute;
+    width: 400px;
+    height: 686px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.innovative-autoglass-title {
+    max-width: 294px;
+    width: 100%;
+    margin-left: auto;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
+    position: relative;
+}
+.innovative-autoglass-title::before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    right: 0;
+    top: -5px;
+    background-color: #fe0000;
+}
+.innovative-autoglass-content {
+    display: flex;
+    justify-content: end;
+    margin-top: 10%;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+.innovative-autoglass-item {
+    max-width: 250px;
+    width: 100%;
+    z-index: 20;
+}
+.innovative-autoglass-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #e8e8e8;
+    margin-bottom: 10px;
+}
+.innovative-autoglass-list li {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 2rem;
+}
+@media (max-width:640px) {
+    .innovative-autoglass-title {
+    max-width: 170px;
+    font-size: 18px;
+    z-index: 2;
+}
+.innovative-autoglass-list li {
+    font-size: 10px;
+    line-height: 1.6rem;
+}
+.innovative-autoglass-list-title {
+    font-size: 12px;
+}
+.innovative-autoglass-img {
+    width: 200px;
+    height: 350px;
+}
+}
