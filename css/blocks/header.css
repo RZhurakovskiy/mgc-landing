@@ -23,6 +23,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../../../img/main-images/background-header.webp);
+    background-attachment: fixed;
 }
 .logo {
     width: 269px;
