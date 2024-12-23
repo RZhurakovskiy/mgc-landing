@@ -1,17 +1,10 @@
-.innovative-autoglass {
-    position: relative;
-    padding-top: 40px;
-    background: linear-gradient(45deg, #151515, #3d3d3d, #a52714);
-    background-size: 400% 400%;
-    animation: 20s linear infinite backgroundAnimation;
-    min-height: 686px;
-}
-@keyframes backgroundAnimation {
-    0%, 100% {
-    background-position: 0 50%}
-50% {
-    background-position: 100% 50%}
-}.innovative-autoglass-img {
+.innovative-autoglass { 
+    position: relative; 
+    padding-top: 40px; 
+    background: linear-gradient(to bottom, #2c2c2c, #a52714); 
+    min-height: 686px; 
+} 
+.innovative-autoglass-img {
     position: absolute;
     width: 400px;
     height: 686px;
@@ -37,7 +30,7 @@
     width: 80%;
     height: 2px;
     right: 0;
-    top: -5px;
+    top: -10px;
     background-color: #fe0000;
 }
 .innovative-autoglass-content {

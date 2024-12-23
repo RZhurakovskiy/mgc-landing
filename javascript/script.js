@@ -11,6 +11,8 @@ import { animateTechnological } from "./modules/animateTechnological.js";
 import { animanteTechnologyArt } from "./modules/animanteTechnologyArt.js";
 import { animateMgcSystems } from "./modules/animateMgcSystems.js";
 
+import { animateFutureInnovations } from "./modules/animateFutureInnovations.js";
+
 initializePreloader();
 initializeMobileMenu();
 animateHeader();
@@ -24,3 +26,5 @@ animateInnovativeAutoglass();
 animateTechnological();
 animanteTechnologyArt();
 animateMgcSystems();
+animateFutureInnovations();
+

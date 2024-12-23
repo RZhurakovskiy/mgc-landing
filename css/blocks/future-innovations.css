@@ -1,0 +1,63 @@
+.future-innovations { 
+    background-color: #a52714; 
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+}
+
+.future-innovations-title {
+  max-width: 294px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+
+  color: #fff;
+  position: relative;
+}
+.future-innovations-title::before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    left: 0;
+    top: -10px;
+    background-color: #2c2c2c;
+}
+.future-innovations-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.future-innovations-list {
+
+  max-width: 350px;
+  width: 100%;
+}
+.future-innovations-list li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 750px) {
+  .future-innovations-item {
+    justify-content: center;
+  }
+}
+@media (max-width:640px) {
+    .future-innovations-title{
+    max-width: 170px;
+    font-size: 18px;
+    z-index: 2;
+}
+.future-innovations-list li {
+    font-size: 10px;
+    line-height: 1.6rem;
+}
+}
