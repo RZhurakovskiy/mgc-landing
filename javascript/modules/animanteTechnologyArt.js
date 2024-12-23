@@ -14,13 +14,13 @@ export function animanteTechnologyArt() {
         setTimeout(() => {
           element.style.opacity = "1";
           element.style.transform = "translateY(0)";
-        }, index * 90);
+        }, index * 95);
       });
       if (imageElement) {
         setTimeout(() => {
           imageElement.style.opacity = "1";
           imageElement.style.transform = "translateX(0)";
-        }, textElementsToAnimate.length * 90);
+        }, textElementsToAnimate.length * 95);
       }
       hasAnimated = !0;
     }
