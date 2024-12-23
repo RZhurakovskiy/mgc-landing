@@ -27,4 +27,3 @@ animateTechnological();
 animanteTechnologyArt();
 animateMgcSystems();
 animateFutureInnovations();
-
