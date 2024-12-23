@@ -24,6 +24,11 @@
     width: 100%;
     padding: 0 15px;
 }
+
+.engineering-img {
+    width: 300px;
+    width: 300px;
+}
 .title-item {
     max-width: 600px;
     width: 100%;
@@ -49,7 +54,7 @@
 .engineering-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+  
     justify-content: center;
     gap: 40px;
     margin-top: 40px;
