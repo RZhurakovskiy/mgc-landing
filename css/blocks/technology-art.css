@@ -35,6 +35,7 @@
 }
 .technology-art-text {
     line-height: 3rem;
+    font-size: 14px;
 }
 .technology-art-image img {
     box-shadow: 0 0 0 30px #151515;
