@@ -1,72 +1,74 @@
 .technology-art {
-    background-color: #151515;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../../../img/main-images/advantages-section-bg.png);
-    overflow-x: hidden;
+  background-color: #151515;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../img/main-images/advantages-section-bg.png);
+  overflow-x: hidden;
 }
 .logo-technology-art {
-    margin-left: -20px;
+  margin-left: -20px;
 }
 .technology-art-top {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 .technology-art-title {
-    font-weight: 700;
-    font-size: 32px;
-    text-transform: uppercase;
-    color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #fff;
 }
-.technology-art-subtitle, .technology-art-text {
-    font-weight: 700;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #e8e8e8;
+.technology-art-subtitle,
+.technology-art-text {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #e8e8e8;
 }
 .technology-art-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-top: 80px;
-    margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .technology-art-text {
-    line-height: 3rem;
-    font-size: 14px;
+  line-height: 3rem;
+  font-size: 14px;
 }
 .technology-art-image img {
-    box-shadow: 0 0 0 30px #151515;
-    background: #151515;
-    border-radius: 50%;
-    height: 450px;
-    width: 450px;
-    border: 1px solid #a52714;
-    padding: 20px;
+  box-shadow: 0 0 0 30px #151515;
+  background: #151515;
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+  border: 1px solid #a52714;
+  padding: 20px;
 }
-@media (max-width:1280px) {
-    .technology-art-row {
+@media (max-width: 1280px) {
+  .technology-art-row {
     justify-content: center;
     margin-top: 80px;
+  }
 }
-}@media (max-width:640px) {
-    .technology-art-title {
+@media (max-width: 640px) {
+  .technology-art-title {
     font-size: 18px;
-}
-.technology-art-subtitle {
+  }
+  .technology-art-subtitle {
     font-size: 10px;
-}
-.technology-art-row {
+  }
+  .technology-art-row {
     margin-top: 40px;
-}
-.technology-art-text {
+  }
+  .technology-art-text {
     font-size: 10px;
     line-height: 1.8rem;
-}
-.technology-art-image img {
+  }
+  .technology-art-image img {
     width: 250px;
     height: 250px;
-}
+  }
 }

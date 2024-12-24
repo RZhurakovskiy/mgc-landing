@@ -1,136 +1,143 @@
-.advantages-logo2, .engineering {
-    background-size: cover;
-    background-repeat: no-repeat;
+.advantages-logo2,
+.engineering {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .engineering {
-    background-color: #151515;
-    background-position: center center;
-    background-image: url(../../../img/main-images/advantages-section-bg.png);
+  background-color: #151515;
+  background-position: center center;
+  background-image: url(../../../img/main-images/advantages-section-bg.png);
 }
 .advantages-logo2 {
-    padding-top: 180px;
-    padding-bottom: 180px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    background-image: url(../../../img/main-images/advantages-bg-element.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    transition: background-position .1s ease-out;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-image: url(../../../img/main-images/advantages-bg-element.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  transition: background-position 0.1s ease-out;
 }
 .engineering-container {
-    max-width: 900px;
-    width: 100%;
-    padding: 0 15px;
+  max-width: 900px;
+  width: 100%;
+  padding: 0 15px;
 }
 
 .engineering-img {
-    width: 300px;
-    width: 300px;
+  width: 300px;
+  width: 300px;
 }
 .title-item {
-    max-width: 600px;
-    width: 100%;
-    margin-left: auto;
-    padding-top: 40px;
+  max-width: 600px;
+  width: 100%;
+  margin-left: auto;
+  padding-top: 40px;
 }
 .engineering-title {
-    font-weight: 700;
-    font-size: 32px;
-    text-transform: uppercase;
-    color: #fff;
-    text-align: right;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: right;
 }
-.engineering-subtitle, .timeline-event h3 {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #e8e8e8;
+.engineering-subtitle,
+.timeline-event h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e8e8e8;
 }
 .engineering-subtitle {
-    font-size: 18px;
-    text-align: right;
+  font-size: 18px;
+  text-align: right;
 }
 .engineering-content {
-    display: flex;
-    flex-wrap: wrap;
-  
-    justify-content: center;
-    gap: 40px;
-    margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
 }
 .engineering-content-img {
-    display: inline-block;
-    padding: 20px;
-    background: #151515;
-    border-radius: 50%;
-    box-shadow: 0 0 0 10px #151515;
-    width: 300px;
-    height: 300px;
+  display: inline-block;
+  padding: 20px;
+  background: #151515;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #151515;
+  width: 300px;
+  height: 300px;
 }
 .engineering-content-img img {
-    border-radius: 50%;
-    border: 1px solid #a52714;
-    padding: 20px;
-    display: block;
+  border-radius: 50%;
+  border: 1px solid #a52714;
+  padding: 20px;
+  display: block;
 }
 .timeline {
-    max-width: 490px;
-    width: 100%;
-    padding-bottom: 80px;
+  max-width: 490px;
+  width: 100%;
+  padding-bottom: 80px;
 }
 .timeline-event {
-    margin: 20px 0;
-    display: flex;
-    align-items: center;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
 }
 .timeline-event h3 {
-    font-size: 12px;
-    margin: 0;
-    padding-left: 30px;
+  font-size: 12px;
+  margin: 0;
+  padding-left: 30px;
 }
 .timeline-event::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #fff;
-    border: 3px solid red;
-    top: 0;
-    z-index: 2;
-    transform: translateX(-50%);
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 3px solid red;
+  top: 0;
+  z-index: 2;
+  transform: translateX(-50%);
 }
 .timeline-row {
-    display: flex;
+  display: flex;
 }
-@media (max-width:640px) {
-    .engineering-title {
+@media (max-width: 640px) {
+  .engineering-title {
     font-size: 18px;
-}
-.engineering-subtitle, .timeline-event h3 {
+  }
+  .engineering-subtitle,
+  .timeline-event h3 {
     font-size: 10px;
+  }
 }
-}@media (max-width:440px) {
-    .timeline {
+@media (max-width: 440px) {
+  .timeline {
     width: 340px;
-}
-.timeline::after {
+  }
+  .timeline::after {
     top: 15%;
-    bottom: 15%}
-}@media (max-width:360px) {
-    .engineering-title {
+    bottom: 15%;
+  }
+}
+@media (max-width: 360px) {
+  .engineering-title {
     font-size: 16px;
-}
-.engineering-subtitle, .timeline-event h3 {
+  }
+  .engineering-subtitle,
+  .timeline-event h3 {
     font-size: 8px;
-}
-.timeline {
+  }
+  .timeline {
     width: 320px;
-}
-.engineering-content-img {
+  }
+  .engineering-content-img {
     width: 250px;
     height: 250px;
-}
+  }
 }
