@@ -12,7 +12,7 @@
   position: absolute;
   z-index: 5;
   background: rgba(20, 20, 20, 0.8);
-  height: 500px !important;
+  height: 400px;
   transition: 0.3s;
 }
 .rf-map .district span {
@@ -34,7 +34,7 @@
   left: 0;
   border-radius: 0;
   width: 100%;
-  height: 400px;
+  height: 500px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
 }
 .rf-map.open .district span {
@@ -145,7 +145,6 @@
     top: 80px;
     width: calc(100% - 60px);
     height: calc(100% - 130px);
-    font-size: 16px;
   }
   .rf-map .close-district {
     width: 60px;
@@ -164,6 +163,9 @@
 .rf-map [data-code="RU-ULY"] {
   fill: #718896;
   cursor: pointer;
+}
+.mgc-location {
+  height: 100vh;
 }
 .mgc-location-title {
   font-weight: 700;
