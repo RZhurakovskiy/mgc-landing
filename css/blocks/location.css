@@ -195,4 +195,7 @@
     font-size: 18px;
     width: 180px;
   }
+  .rf-map .district-links div {
+    font-size: 10px;
+  }
 }
