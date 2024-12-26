@@ -12,7 +12,7 @@
   position: absolute;
   z-index: 5;
   background: rgba(20, 20, 20, 0.8);
-  height: 400px;
+  height: 500px !important;
   transition: 0.3s;
 }
 .rf-map .district span {
@@ -28,6 +28,7 @@
 .rf-map .district {
   display: none;
 }
+
 .rf-map.open .district b {
   top: 0;
   left: 0;
@@ -69,8 +70,7 @@
   padding: 0 20px;
   overflow: auto;
   color: #fff;
-  font-size: 13px;
-  font-family: Verdana, sans-serif;
+
 }
 .rf-map .close-district {
   opacity: 0;
