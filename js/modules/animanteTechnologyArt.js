@@ -25,11 +25,11 @@ export function animanteTechnologyArt() {
   e.forEach((t) => {
     (t.style.opacity = "0"),
       (t.style.transform = "translateY(20px)"),
-      (t.style.transition = "opacity 1s ease, transform 1s ease");
+      (t.style.transition = "opacity 1.5s ease, transform 1.5s ease");
   }),
     a &&
       ((a.style.opacity = "0"),
       (a.style.transform = "translateX(100px)"),
-      (a.style.transition = "opacity 1.5s ease, transform 1.5s ease")),
+      (a.style.transition = "opacity 2s ease, transform 2s ease")),
     window.addEventListener("scroll", r);
 }
