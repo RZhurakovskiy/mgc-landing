@@ -12,10 +12,7 @@
   z-index: 300;
   transition: opacity 0.5s ease-out;
 }
-.preloader-logo {
-  width: 220px;
-  height: 77px;
-}
+
 .loader .wrapper span {
   width: 5px;
   height: 5px;
