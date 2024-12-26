@@ -48,6 +48,7 @@
 .advantages-content-text {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.6rem;
   text-transform: uppercase;
   color: #e8e8e8;
 }

@@ -18,8 +18,7 @@
   text-transform: uppercase;
   color: #fff;
 }
-.technology-art-subtitle,
-.technology-art-text {
+.technology-art-subtitle {
   font-weight: 700;
   font-size: 18px;
   text-transform: uppercase;
@@ -35,8 +34,9 @@
   margin-bottom: 80px;
 }
 .technology-art-text {
-  line-height: 3rem;
+  line-height: 2rem;
   font-size: 14px;
+  color: #e8e8e8;
 }
 .technology-art-image img {
   box-shadow: 0 0 0 30px #151515;
@@ -51,6 +51,11 @@
   .technology-art-row {
     justify-content: center;
     margin-top: 80px;
+  }
+}
+@media(max-width: 980px) {
+  .technology-art-text {
+    font-size: 12px;
   }
 }
 @media (max-width: 640px) {

@@ -40,12 +40,16 @@
 .future-innovations-list li {
   list-style: none;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2rem;
   text-transform: uppercase;
   color: #fff;
 }
-
+@media(max-width: 980px) {
+  .future-innovations-list li {
+    font-size: 12px;
+  }
+}
 @media (max-width: 750px) {
   .future-innovations-item {
     justify-content: center;

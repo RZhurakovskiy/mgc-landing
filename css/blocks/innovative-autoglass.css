@@ -55,10 +55,15 @@
 }
 .innovative-autoglass-list li {
   font-weight: 700;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 2rem;
   text-transform: uppercase;
   color: #fff;
-  line-height: 2rem;
+}
+@media(max-width: 980px) {
+  .innovative-autoglass-list li {
+    font-size: 12px;
+  }
 }
 @media (max-width: 640px) {
   .innovative-autoglass-title {

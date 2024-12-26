@@ -57,9 +57,9 @@
   width: 100%;
 }
 .mgc-systems-list li {
-  font-size: 12px;
-  margin-left: 15px;
+  font-size: 14px;
   line-height: 2rem;
+  margin-left: 15px;
 }
 .mgc-systems-image {
   display: inline-block;
@@ -91,6 +91,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+@media(max-width: 980px) {
+  .mgc-systems-list li {
+    font-size: 12px;
+    line-height: 2rem;
   }
 }
 @media (max-width: 640px) {
