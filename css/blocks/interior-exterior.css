@@ -38,6 +38,7 @@
   font-size: 32px;
   text-align: right;
   position: relative;
+  z-index: 2;
 }
 .interior-exterior-title::before {
   position: absolute;
