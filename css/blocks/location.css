@@ -123,15 +123,13 @@
   line-height: 2rem;
   color: #000;
 }
-@media (hover: none) {
-  .rf-map .district-links div:hover {
-    background-color: unset;
-    color: unset;
-  }
-}
 @media(max-width: 980px) {
   .location-description p {
     font-size: 12px;
+  }
+  .rf-map .district-links div:hover {
+    background-color: unset;
+    color: unset;
   }
 }
 @media (min-width: 768px) {
