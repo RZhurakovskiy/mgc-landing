@@ -72,7 +72,7 @@
   font-size: 14px;
   line-height: 2rem;
 }
-@media(max-width: 980px) {
+@media (max-width: 980px) {
   .interior-exterior-list li {
     font-size: 12px;
     line-height: 2rem;

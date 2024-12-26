@@ -13,7 +13,6 @@
   z-index: 5;
   background: #fff;
   height: 400px;
-
 }
 .rf-map .district span {
   position: absolute;
@@ -100,7 +99,7 @@
 .rf-map .district-links div {
   border: 1px solid #141414;
   padding: 4px 7px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   font-size: 12px;
 }
 .rf-map .district-links div:hover {
@@ -121,9 +120,13 @@
   line-height: 2rem;
   color: #000;
 }
-@media(max-width: 980px) {
+@media (max-width: 980px) {
   .location-description p {
     font-size: 12px;
+  }
+  .rf-map .district-links div:hover {
+    background-color: unset;
+    color: unset;
   }
 }
 @media (min-width: 768px) {

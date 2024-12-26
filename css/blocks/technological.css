@@ -74,7 +74,7 @@
     margin-left: 0;
   }
 }
-@media(max-width: 980px) {
+@media (max-width: 980px) {
   .technological-content-list li {
     font-size: 12px;
   }
