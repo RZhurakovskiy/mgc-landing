@@ -125,10 +125,6 @@
   .location-description p {
     font-size: 12px;
   }
-  .rf-map .district-links div:hover {
-    background-color: unset;
-    color: unset;
-  }
 }
 @media (min-width: 768px) {
   .rf-map .district b {
