@@ -108,6 +108,9 @@
 .mainfill {
   fill: #b9b9b9 !important;
 }
+.mgc-location {
+  min-height: 800px;
+}
 .location-img {
   max-width: 80px;
   height: 80px;
