@@ -13,16 +13,12 @@
   z-index: 5;
   background: #fff;
   height: 400px;
-  transition: 0.3s;
+
 }
 .rf-map .district span {
   position: absolute;
   z-index: 5;
   top: 20%;
-  font-size: 13px;
-  font-weight: 700;
-  font-family: Tahoma, sans-serif;
-  line-height: 1;
   color: #141414;
 }
 .rf-map .district {
