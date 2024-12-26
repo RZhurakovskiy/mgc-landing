@@ -21,14 +21,15 @@ export function animanteTechnologyArt() {
           }, 100 * e.length),
         (o = !0));
     };
+
   e.forEach((t) => {
     (t.style.opacity = "0"),
       (t.style.transform = "translateY(20px)"),
-      (t.style.transition = "opacity 0.5s ease, transform 0.5s ease");
+      (t.style.transition = "opacity 1s ease, transform 1s ease");
   }),
     a &&
       ((a.style.opacity = "0"),
       (a.style.transform = "translateX(100px)"),
-      (a.style.transition = "opacity 0.8s ease, transform 0.8s ease")),
+      (a.style.transition = "opacity 1.5s ease, transform 1.5s ease")),
     window.addEventListener("scroll", r);
 }
