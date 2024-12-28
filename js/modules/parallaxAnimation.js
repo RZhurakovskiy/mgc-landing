@@ -1,1 +1,0 @@
-let previousScrollY=0,isTicking=!1;export function initParralaxAnimation(){document.addEventListener("scroll",()=>{let i=window.scrollY;isTicking||(window.requestAnimationFrame(()=>{let o=document.querySelector(".advantages-logo");previousScrollY+=(i-previousScrollY)*.1,o.style.backgroundPositionY=`${.1*previousScrollY}px`,isTicking=!1}),isTicking=!0)})}

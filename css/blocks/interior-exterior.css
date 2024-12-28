@@ -10,7 +10,7 @@
   background: linear-gradient(45deg, #151515, #3d3d3d, #a52714);
   background-size: 400% 400%;
   animation: 20s linear infinite backgroundAnimation;
-  min-height: 600px;
+  min-height: 100vh;
   padding-bottom: 40px;
 }
 @keyframes backgroundAnimation {
@@ -24,8 +24,8 @@
 }
 .interior-exterior-img {
   position: absolute;
-  width: 400px;
-  height: 600px;
+  width: 550px;
+  height: 100%;
   top: 0;
   bottom: 0;
   left: 0;
