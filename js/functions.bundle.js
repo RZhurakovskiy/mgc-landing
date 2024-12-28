@@ -1,7 +1,7 @@
 import { initializePreloader } from "./modules/preloader.js";
 import { initializeMobileMenu } from "./modules/mobileMenu.js";
 import { animateHeader } from "./modules/animateHeader.js";
-
+import { initParallaxAnimation } from "./modules/parallaxAnimation.js";
 import { initDistrictInteractions } from "./modules/maps.js";
 import { animateInteriorExterior } from "./modules/animateInteriorExterior.js";
 import { animateInnovativeAutoglass } from "./modules/animateInnovativeAutoglass.js";
@@ -13,7 +13,7 @@ import { animateFutureInnovations } from "./modules/animateFutureInnovations.js"
 initializePreloader();
 initializeMobileMenu();
 animateHeader();
-
+initParallaxAnimation();
 initDistrictInteractions();
 animateInteriorExterior();
 animateInnovativeAutoglass();
