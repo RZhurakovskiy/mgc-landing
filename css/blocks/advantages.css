@@ -62,11 +62,11 @@
 }
 @media (max-width: 640px) {
   .advantages-content-title {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
   }
   .advantages-content-text {
-    font-size: 10px;
+    font-size: 12px;
   }
   .advantages-logo {
     padding-top: 50px;
