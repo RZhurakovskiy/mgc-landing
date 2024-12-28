@@ -34,8 +34,9 @@
   margin-bottom: 80px;
 }
 .technology-art-text {
-  line-height: 2rem;
+  line-height: 1.4rem;
   font-size: 14px;
+  margin-bottom: 10px;
   color: #e8e8e8;
 }
 .technology-art-image img {
