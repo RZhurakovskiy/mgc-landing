@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",function(){window.addEventListener("load",function(){initializePreloader()})});export function initializePreloader(){setTimeout(function(){let e=document.getElementById("preloader");e.classList.add("hidden")},1500)}
+document.addEventListener("DOMContentLoaded",function(){window.addEventListener("load",initializePreloader)});export function initializePreloader(){let e=document.getElementById("preloader");e&&e.classList.add("hidden")}

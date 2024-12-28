@@ -1,1 +1,60 @@
-export function animateMgcSystems(){let t=t=>{let e=t.getBoundingClientRect();return e.top<window.innerHeight&&e.bottom>0},e=document.querySelectorAll(".mgc-systems-card"),s=t=>{let e=t.querySelector(".mgc-systems-title1"),s=t.querySelectorAll(".mgc-systems-item"),a=t.querySelector(".mgc-systems-image img");e&&(e.style.transition="transform 0.5s ease, opacity 0.5s ease",e.style.transform="translateY(0)",e.style.opacity="1"),s.forEach((t,e)=>{setTimeout(()=>{t.style.transition=`transform 0.5s ease ${.2*e}s, opacity 0.5s ease ${.2*e}s`,t.style.transform="translateX(0)",t.style.opacity="1"},200*e)}),a&&(a.style.transition="transform 2s ease, opacity 2s ease",a.style.transform="scale(1)",a.style.opacity="1")},a=()=>{e.forEach(e=>{t(e)&&!e.dataset.animated&&(s(e),e.dataset.animated="true")})};e.forEach(t=>{let e=t.querySelector(".mgc-systems-title1"),s=t.querySelectorAll(".mgc-systems-item"),a=t.querySelector(".mgc-systems-image img");e&&(e.style.transform="translateY(-50px)",e.style.opacity="0"),s.forEach(t=>{t.style.transform="translateX(-50px)",t.style.opacity="0"}),a&&(a.style.transform="scale(0.8)",a.style.opacity="0")}),window.addEventListener("scroll",a),a()}
+export function animateMgcSystems() { 
+  let isVisible = (element) => {
+    let rect = element.getBoundingClientRect();
+    return rect.top < window.innerHeight && rect.bottom > 0;
+  },
+  cards = document.querySelectorAll(".mgc-systems-card"),
+  animateCard = (card) => {
+    let title = card.querySelector(".mgc-systems-title1"),
+        items = card.querySelectorAll(".mgc-systems-item"),
+        image = card.querySelector(".mgc-systems-image img");
+
+    if (title) {
+      gsap.fromTo(title, 
+        { y: -50, opacity: 0 }, 
+        { y: 0, opacity: 1, ease: "power1.out", duration: 1 });
+    }
+
+    items.forEach((item, index) => {
+      gsap.fromTo(item, 
+        { x: -50, opacity: 0 }, 
+        { x: 0, opacity: 1, ease: "power1.out", duration: 1, delay: 0.4 * index });
+    });
+
+    if (image) {
+      gsap.fromTo(image, 
+        { scale: 0.8, opacity: 0 }, 
+        { scale: 1, opacity: 1, ease: "power1.out", duration: 4 });
+    }
+  },
+  
+  onScroll = () => {
+    cards.forEach((card) => {
+      if (isVisible(card) && !card.dataset.animated) {
+        animateCard(card);
+        card.dataset.animated = "true";
+      }
+    });
+  };
+
+  cards.forEach((card) => {
+    let title = card.querySelector(".mgc-systems-title1"),
+        items = card.querySelectorAll(".mgc-systems-item"),
+        image = card.querySelector(".mgc-systems-image img");
+
+    if (title) {
+      gsap.set(title, { y: -50, opacity: 0 });
+    }
+
+    items.forEach((item) => {
+      gsap.set(item, { x: -50, opacity: 0 });
+    });
+
+    if (image) {
+      gsap.set(image, { scale: 0.8, opacity: 0 });
+    }
+  });
+
+  window.addEventListener("scroll", onScroll);
+  onScroll();
+}
